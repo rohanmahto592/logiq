@@ -1,0 +1,32 @@
+log_paths:
+  - "./logs/*.log"
+include_patterns:
+  - "(?i)ERROR"
+  - "WARN"
+  - "CRITICAL"
+exclude_patterns:
+  - "DEBUG"
+
+timestamp_patterns:
+  - "\\d{4}-\\d{2}-\\d{2}[ T]\\d{2}:\\d{2}:\\d{2}"   # e.g. 2025-11-10 12:45:09 or 2025-11-10T12:45:09
+  - "[A-Z][a-z]{2} [0-9]{1,2} [0-9:]{8}"             # e.g. Nov 10 12:45:09
+  - "\\d{2}/[A-Z][a-z]{2}/\\d{4}:\\d{2}:\\d{2}:\\d{2}" # e.g. 10/Nov/2025:12:45:09
+
+alert_rules:
+  - keyword: "(?i)ERROR"
+    severity: "high"
+  - keyword: "timeout"
+    severity: "medium"
+
+output:
+  format: "json,html"
+  report_file: "reports/logiq-report.json"
+
+analysis:
+  group_by: "keyword"
+  threshold_spike: 50
+  interval_seconds: 10
+
+output_paths:
+  parquet_dir_path: "mnt/data/logiq/parquet/"
+  json_dir_path: "jsonLogs/"
