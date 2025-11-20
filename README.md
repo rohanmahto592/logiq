@@ -20,9 +20,9 @@
 ✔️ Scans logs from files or directories <br>
 ✔️ Extracts timestamps, file paths, and metadata<br>
 ✔️ Converts logs → JSON → Parquet<br>
-✔️ Loads them into **DuckDB** for instant analytics
-✔️ Detects anomalies using rule-based analysis
-✔️ Generates JSON + HTML reports
+✔️ Loads them into **DuckDB** for instant analytics<br>
+✔️ Detects anomalies using rule-based analysis<br>
+✔️ Generates JSON + HTML reports<br>
 ✔️ Includes a full **Streamlit dashboard** with SQL query editor and visualizations
 
 It is built in **Go + Python**, optimized for **sub-second querying** of millions of log rows.
