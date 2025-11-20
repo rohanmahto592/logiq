@@ -17,9 +17,9 @@
 
 **LogIQ** is a high-performance log Intelligence platform that:
 
-✔️ Scans logs from files or directories
-✔️ Extracts timestamps, file paths, and metadata
-✔️ Converts logs → JSON → Parquet
+✔️ Scans logs from files or directories <br>
+✔️ Extracts timestamps, file paths, and metadata<br>
+✔️ Converts logs → JSON → Parquet<br>
 ✔️ Loads them into **DuckDB** for instant analytics
 ✔️ Detects anomalies using rule-based analysis
 ✔️ Generates JSON + HTML reports
