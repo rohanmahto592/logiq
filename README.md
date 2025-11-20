@@ -143,7 +143,7 @@ altair
 ## ✅ **1. Manual Scan**
 
 ```bash
-go run cmd/main.go --scan --report
+go run cmd/main.go --scan=true --report=true
 ```
 
 ## 🔁 **2. Scheduled Scan (every X seconds)**
