@@ -1,8 +1,3 @@
-Here is your **complete, production-ready GitHub README.md** — polished, structured, and ready to publish.
-Includes badges, architecture diagrams, folder structure, installation steps, examples, Streamlit UI, YAML config, CRON-based runner, SQL engine, screenshots placeholders, and more.
-
----
-
 # 🪵 **LogIQ — Intelligent Log Scanner, Analyzer & Dashboard**
 
 ### *Fast. Automated. DuckDB Powered.*
