@@ -1,4 +1,4 @@
-# 🪵 **LogIQ — Intelligent Log Scanner, Analyzer & Dashboard**
+# 🪵 **LogIQ — Log Scanner, Analyzer & Dashboard**
 
 ### *Fast. Automated. DuckDB Powered.*
 
