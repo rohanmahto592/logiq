@@ -8,7 +8,6 @@
   <img src="https://img.shields.io/badge/DuckDB-0.10+-FFF000?logo=duckdb&logoColor=black" />
   <img src="https://img.shields.io/badge/Streamlit-1.x-FF4B4B?logo=streamlit&logoColor=white" />
   <img src="https://img.shields.io/badge/Parquet-Optimized-0E7AFE?logo=apache" />
-  <img src="https://img.shields.io/badge/License-MIT-green" />
 </p>
 
 ---
